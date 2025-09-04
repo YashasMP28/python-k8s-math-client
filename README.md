@@ -1,5 +1,8 @@
 🌐 Python Kubernetes Math Client (Invoker)
+
+
 📌 Project Overview
+
 This project implements a Python client application that interacts with the Kubernetes workload (math-evaluator) deployed on Minikube.
 It sends math expressions, invokes the workload, and retrieves results.
 
@@ -13,12 +16,11 @@ Lightweight, simple, and follows Twelve-Factor App principles.
 
 
 📂 Project Structure
-bash
-Copy code
+
 k8s-math-client/
-│── client.py          # Python client to invoke the workload
-│── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
+│── client.py        
+│── requirements.txt  
+└── README.md          
 
 
 🛠️ Technologies Used
@@ -34,18 +36,16 @@ VS Code
 ⚡ Setup Instructions
 
 1️⃣ Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 2️⃣ Run the Client
-bash
-Copy code
 python client.py "10*(5+2)-3"
+
 3️⃣ Expected Output
-vbnet
-Copy code
 Sending expression to Kubernetes workload...
+
 Expression: 10*(5+2)-3
+
 Result: 67
 
 
