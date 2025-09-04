@@ -18,6 +18,7 @@ Lightweight, simple, and follows Twelve-Factor App principles.
 📂 Project Structure
 
 k8s-math-client/
+
 │── client.py        
 │── requirements.txt  
 └── README.md          
